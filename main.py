@@ -1,8 +1,3 @@
-# consent_keylogger_demo_with_csv.py
-# Educational / consent-based key-event logger (only logs while the app window is focused)
-# Writes CSV rows (timestamp, key). Creates ~/Documents/keylogs by default.
-# Use only for authorized/demo/learning purposes.
-
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import datetime
@@ -258,3 +253,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = ConsentKeyLoggerApp(root)
     root.mainloop()
+
